@@ -1,0 +1,333 @@
+{
+  "delicious": [
+    {
+      "id": 1,
+      "name": "Chocolate Blueberries Cake",
+      "category": "cake",
+      "description": "The fluffy and super moist chocolate cake is topped with a blueberry forsting",
+      "price": 220,
+      "rating": 5,
+      "image": "Chocolate Blueberries Cake"
+    },
+    {
+      "id": 2,
+      "name": "Cookies Cream Cake",
+      "category": "cake",
+      "description": "This is soft and buttery white cake filled with cream-filled chocolate",
+      "price": 300,
+      "rating": 4,
+      "image": "Cookies Cream Cake"
+    },
+    {
+      "id": 10,
+      "name": "Fruit Cake",
+      "category": "cake",
+      "description": "A cake made with dried fruit and nuts",
+      "price": 160,
+      "rating": 2,
+      "image": "Fruit Cake"
+    },
+    {
+      "id": 3,
+      "name": "Monster Theme Cake",
+      "category": "cake",
+      "description": "A chocolate cake with layers of multi color",
+      "price": 440,
+      "rating": 3.5,
+      "image": "Monster Theme Cake"
+    },
+    {
+      "id": 4,
+      "name": "Berries Summer Cupcakes",
+      "category": "cake",
+      "description": "A cake stuffed with berries,with a summer berry forsting",
+      "price": 550,
+      "rating": 4,
+      "image": "Berries Summer Cupcakes"
+    },
+    {
+      "id": 5,
+      "name": "Cherry Jelly Cheesecake",
+      "category": "cake",
+      "description": "A crisp biscuit base,juicy cherries,then a shooth white chocolate cheesecake topped with cherries",
+      "price": 380,
+      "rating": 2.9,
+      "image": "Cherry Jelly Cheesecake"
+    },
+    {
+      "id": 6,
+      "name": "Chocolate Cupcake",
+      "category": "cake",
+      "price": 510,
+      "rating": 5,
+      "description": "Chocklate cup cake",
+      "image": "Chocolate Cupcake"
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Summer Berries",
+      "category": "cake",
+      "description": "Combination of sweet and sour berries with a delicate Belgian Dark",
+      "price": 510,
+      "rating": 4,
+      "image": "Chocolate Summer Berries"
+    },
+    {
+      "id": 8,
+      "name": "Classic Cheesecake",
+      "category": "cake",
+      "description": "A rich cream cheese filling and a graham cracker crust",
+      "price": 350,
+      "rating": 4.4,
+      "image": "Classic Cheesecake"
+    },
+    {
+      "id": 9,
+      "name": "Easter Cupcakes",
+      "category": "cake",
+      "description": "different flavor of cakes",
+      "price": 180,
+      "rating": 3,
+      "image": "Easter Cupcakes"
+    },
+    {
+      "id": 11,
+      "name": "Pumpkin Spice Cupcakes",
+      "category": "cake",
+      "description": "cake filled with chocolate and pumpkin sauce",
+      "price": 630,
+      "rating": 5.5,
+      "image": "Pumpkin Spice Cupcakes"
+    },
+    {
+      "id": 12,
+      "name": "Muffin Devil Horns",
+      "category": "cake",
+      "description": "A theme cake ",
+      "price": 200,
+      "rating": 5,
+      "image": "Muffin Devil Horns"
+    },
+    {
+      "id": 13,
+      "name": "Muffin Ghost",
+      "category": "cake",
+      "description": "hallowen theme cake",
+      "price": 250,
+      "rating": 5,
+      "image": "Muffin Ghost"
+    },
+    {
+      "id": 14,
+      "name": "Chocolate Cookies",
+      "category": "cookie",
+      "description": "cookies filled with chocolate",
+      "price": 150,
+      "rating": 5,
+      "image": "Chocolate Cookies"
+    },
+    {
+      "id": 15,
+      "name": "Butter Cookies",
+      "category": "cookie",
+      "description": "buttery soft cookies",
+      "price": 100,
+      "rating": 5,
+      "image": "Butter Cookies"
+    },
+    {
+      "id": 16,
+      "name": "Isometric chocolate brownies",
+      "category": "brownie",
+      "description": "brownie filled with chocolate",
+      "price": 200,
+      "rating": 5,
+      "image": "Isometric chocolate brownies"
+    },
+    {
+      "id": 17,
+      "name": "Brownies Different Flavor",
+      "category": "brownie",
+      "description": "Different flavor browine",
+      "price": 250,
+      "rating": 5,
+      "image": "Brownies Different Flavor"
+    }
+  ],
+  "requests": [
+    {
+      "name": "Chocolate Blueberries Cake",
+      "dateOfDelivery": "2023-12-31",
+      "customerName": "vicky",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "id": 1
+    },
+    {
+      "name": "Chocolate Blueberries Cake",
+      "dateOfDelivery": "2023-12-31",
+      "customerName": "vicky",
+      "customerEmail": "saivikram@gmail.com",
+      "customerPhone": "9380747300",
+      "id": 2
+    },
+    {
+      "name": "Fruit Cake",
+      "dateOfDelivery": "2000-03-24",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "id": 3
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "customerPhone": "9380747300",
+      "dateOfDelivery": "2000-12-02",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "id": 4
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "vineel",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "id": 5
+    },
+    {
+      "name": "Isometric chocolate brownies",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "vinee",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "id": 6
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "vikram",
+      "customerEmail": "ggg@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 7
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "vicky",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 8
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "vineel",
+      "customerEmail": "ggg@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 9
+    },
+    {
+      "name": "Fruit Cake",
+      "dateOfDelivery": "2023-02-02",
+      "customerName": "pinky",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 10
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2023-02-02",
+      "customerName": "nikil",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 11
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 12
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 13
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 14
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "M Sai vikram",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 15
+    },
+    {
+      "name": "Cookies Cream Cake",
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "pinky",
+      "customerEmail": "ggg@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "id": 16
+    },
+    {
+      "dateOfDelivery": "1222-12-12",
+      "customerName": "saivikram",
+      "customerEmail": "sai@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "name": "Cookies Cream Cake",
+      "id": 17
+    },
+    {
+      "dateOfDelivery": "1222-12-12",
+      "customerName": "saivikram",
+      "customerEmail": "sai@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "name": "Cookies Cream Cake",
+      "id": 18
+    },
+    {
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "123",
+      "customerEmail": "ggg@gmail.com",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "name": "Chocolate Blueberries Cake",
+      "id": 19
+    },
+    {
+      "dateOfDelivery": "2000-02-02",
+      "customerName": "jagan",
+      "customerEmail": "saivikram@gmail",
+      "customerPhone": "9380747300",
+      "customerAddress": "HOUSE NO 25/C",
+      "name": "Fruit Cake",
+      "id": 20
+    }
+  ]
+}

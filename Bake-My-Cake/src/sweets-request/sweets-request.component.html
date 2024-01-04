@@ -1,0 +1,52 @@
+ <section id="request-section">
+    <table mat-table matSort [dataSource]="dataSource" class="mat-elevation-z8">
+  
+        
+        <ng-container matColumnDef="customerName">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerName}} </td>
+        </ng-container>
+      
+        
+        <ng-container matColumnDef="customerEmail">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerEmail}} </td>
+        </ng-container>
+      
+        
+        <ng-container matColumnDef="customerPhone">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerPhone}} </td>
+        </ng-container>
+        
+        <ng-container matColumnDef="customerAddress">
+          <th mat-header-cell *matHeaderCellDef> Address </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerAddress}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="customerPincode">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> pincode </th>
+          <td mat-cell *matCellDef="let element"> {{element.customerPincode}} </td>
+        </ng-container>
+
+
+
+          
+          <ng-container matColumnDef="dateOfDelivery">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>Date of Order</th>
+            <td mat-cell *matCellDef="let element"> {{element.dateOfDelivery}} </td>
+          </ng-container>
+        
+        
+  
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+      </table>
+
+      <mat-paginator [length]="100"
+      [pageSize]="10"
+      [pageSizeOptions]="[5, 10, 25, 100]"
+      aria-label="Select page">
+</mat-paginator>
+  </section>

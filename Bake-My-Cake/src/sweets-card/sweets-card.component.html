@@ -1,0 +1,13 @@
+
+<mat-card class="sweets-card">
+    <img class='sweets-img' mat-card-image src="../../assets/images/{{sweets.name}}.jpg">
+    <mat-card-header>
+        <mat-card-title class="sweets-title">{{sweets.name}} </mat-card-title>
+        <mat-card-subtitle>{{sweets.rating}} | Rs {{sweets.price}}.00</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+        <h5 class="card-desc"> {{sweets.description}}</h5>
+    </mat-card-content>
+    <mat-card-actions>
+        <mat-icon routerLink="{{sweets.id}}" class="cart-icon" color="primary" matTooltip="add to cart">shopping_cart</mat-icon>    </mat-card-actions>
+</mat-card>

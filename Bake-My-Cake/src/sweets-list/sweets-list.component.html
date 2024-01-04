@@ -1,0 +1,17 @@
+
+<div class="outer-containre">
+  <div class="tabs-section">
+    
+    <div class="buttons">
+      <button mat-flat-button color="primary" class="margin-10px" (click)="reset(all)">all</button>
+      <button mat-flat-button color="primary" class="margin-10px" (click)="displaysorted(cookies)">Cookies</button>
+      <button mat-flat-button color="primary" class="margin-10px" (click)="displaysorted(cakes)">Cakes</button>
+      <button mat-flat-button color="primary" class="margin-10px" (click)="displaysorted(brownies)">Brownies</button>
+    </div>
+    <app-search id="search-note-panel" class="search" (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+  </div>
+
+  <div class="container-fluid">
+    <app-sweets-card *ngFor="let sweets of sweets" [sweets]="sweets"></app-sweets-card>
+  </div>
+</div>

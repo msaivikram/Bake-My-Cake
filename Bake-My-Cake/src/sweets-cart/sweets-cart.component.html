@@ -1,0 +1,101 @@
+
+<section id="tour-content">
+  <div id="tour-detail">
+      <h1>{{Cake?.name}}</h1>
+      <h3>
+          <mat-icon color="accent" *ngFor="let star of stars">star</mat-icon>
+      </h3>
+      {{Cake?.rating}}  <br>
+      <h1>Rs {{Cake?.price}}</h1>
+      
+      <img src="../../assets/images/{{Cake?.image}}.jpg">
+      <p>{{Cake?.description}}</p>
+  </div>
+  <form id="tour-request" >
+     
+<mat-form-field appearance="fill">
+  <mat-label>DatePicker</mat-label>
+  <input matInput type="date"  required  placeholder="First Name" name="dateOfDelivery" #DateOfOrder="ngModel" [(ngModel)] = "Customerdet.dateOfDelivery">
+  <mat-error *ngIf="DateOfOrder.errors?.['required']">
+    Delivery date is required
+  </mat-error>
+</mat-form-field>
+
+<!-- <mat-form-field appearance="fill">
+  <mat-label>Select a date</mat-label>
+  <input matInput [matDatepicker]="picker" [formControl]="selectedDate">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field> -->
+
+<mat-form-field appearance="fill">
+  <mat-label>Name of the customer</mat-label>
+  <input matInput type="text" required  minlength="3"    placeholder="Name" name="Name" #Name="ngModel"
+    [(ngModel)]="Customerdet.customerName" pattern="[a-zA-Z]">
+  <mat-error *ngIf="Name.errors?.['required']">
+    User Name is required
+  </mat-error>
+  <mat-error *ngIf="Name.errors?.['minlength']">
+    User Name Minimum length is must be 3
+  </mat-error>
+  <mat-error *ngIf="Name.errors?.['pattern']">
+    only alpabets are allowed in the name
+  </mat-error>
+
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Email of customers</mat-label>
+  <input matInput type="email" required pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" placeholder="email" name="customerEmail"    #Email="ngModel" [(ngModel)]="Customerdet.customerEmail">
+  <mat-error *ngIf="Email.errors?.['required']">
+    Email is required
+  </mat-error>
+</mat-form-field>
+<mat-form-field appearance="fill">
+    <mat-label>Phone no. of customer</mat-label>
+    <input matInput type="phone"required pattern="^[7-9][0-9]{9}$" maxlength="10" placeholder="Phone" name="customerPhone" #Phone="ngModel" [(ngModel)] = "Customerdet.customerPhone">
+    <mat-error *ngIf="Phone.errors?.['required']">
+        Phone Number is required
+   </mat-error>
+   <mat-error *ngIf="Phone.errors?.['pattern']">
+     Enter valid phone number containing 10 digits starting with 7/8/9
+</mat-error>
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Address and location of the customer</mat-label>
+  <input matInput type="text" required  maxlength="50" placeholder="Address" name="customerAddress" #Address="ngModel" [(ngModel)] = "Customerdet.customerAddress">
+  <mat-error *ngIf="Address.errors?.['required']">
+     Address is required
+ </mat-error>
+ <!-- <mat-error *ngIf="Phone.errors?.['pattern']">
+   Enter valid phone number containing 10 digits starting with 7/8/9
+</mat-error> -->
+</mat-form-field>
+<!-- 
+<mat-form-field appearance="fill"  class="col-12 col-md-6">
+<mat-label>Quantity</mat-label>
+<input matInput type="number" min="1" max="9999999999999"required placeholder="Qty" name="quantity" id="quantity" formControlName="quantity" [(ngModel)] ="Customerdet.quantity" (input)="calculateTotalBill()">
+</mat-form-field> 
+
+ <mat-form-field appearance="fill">
+<mat-label>TotalBill</mat-label>
+<input matInput type="number" required placeholder="Total Bill" name="TotalBill"  id="TotalBill"  [(ngModel)] = "Customerdet.TotalBill"  [ngModelOptions]="{standalone:true}" >
+</mat-form-field>&nbsp; -->
+
+ <!-- <mat-form-field appearance="fill">
+<mat-label>pin code</mat-label>
+<input matInput type="number" required  maxlength="5" placeholder="Pincode" name="customerPincode" #pincode="ngModel" [(ngModel)] = "Customerdet.customerPincode">
+<mat-error *ngIf="pincode.errors?.['required']">
+   pincode is required
+</mat-error> 
+ <mat-error *ngIf="Phone.errors?.['pattern']">
+ Enter valid phone number containing 10 digits starting with 7/8/9
+</mat-error> 
+ </mat-form-field>  -->
+
+<br>
+<!-- <h2>Total price is Rs{{totalPrice}}</h2> -->
+<button mat-flat-button color="primary" (click)="submit()">submit request </button>
+</form>
+</section>
